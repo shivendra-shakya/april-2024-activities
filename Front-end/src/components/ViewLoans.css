@@ -1,0 +1,64 @@
+.apply-button {
+    background-color: #007bff;  /* Bootstrap primary color */
+    color: white;
+    padding: 5px 10px;  /* Reduced padding for smaller buttons */
+    font-size: 14px;  /* Smaller font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;  /* Change color on hover */
+  }
+
+  
+.view-loans-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .loan-list {
+    list-style-type: none;  /* Remove bullet points */
+    padding: 0;  /* Remove default padding */
+  }
+  
+  .loan-item {
+    display: flex;  /* Use flex layout for proper alignment */
+    justify-content: space-between;  /* Space between text and button */
+    align-items: center;  /* Align vertically */
+    padding: 10px;
+    border-bottom: 1px solid #ccc;  /* Add divider between list items */
+  }
+  
+  .loan-item:last-child {
+    border-bottom: none;  /* Remove border from the last item */
+  }
+  
+  .apply-button {
+    background-color: #007bff;  /* Primary Bootstrap color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;  /* Change color on hover */
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;  /* Emphasize loading message */
+  }
+  
+  .error {
+    text-align: center;
+    color: red;  /* Red color for error messages */
+  }
+  

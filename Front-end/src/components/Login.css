@@ -1,0 +1,26 @@
+.login-container {
+    padding: 20px;  /* Add padding around the form */
+    background-color: #f9f9f9;  /* Light background color for contrast */
+    border: 1px solid #ccc;  /* Border to define the form area */
+    border-radius: 8px;  /* Rounded corners */
+    max-width: 400px;  /* Limit the width */
+    margin: 0 auto;  /* Center the form */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;  /* Stack form elements vertically */
+  }
+  
+  .login-form .form-label {
+    font-weight: bold;  /* Bold text for labels */
+  }
+  
+  .login-form .form-control {
+    border-radius: 5px;  /* Rounded input fields */
+  }
+  
+  .login-form .btn {
+    align-self: flex-end;  /* Align the submit button to the right */
+  }
+  

@@ -1,0 +1,27 @@
+/* src/components/Registration.css */
+.registration-wrapper {
+    max-width: 50%;  /* Limit the width to 50% of the screen */
+    margin: 0 auto;  /* Center the form */
+    padding: 20px;  /* Add some padding */
+    background: #f9f9f9;  /* Light background */
+    border: 1px solid #ddd;  /* Light border */
+    border-radius: 8px;  /* Rounded corners */
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form .form-label {
+    font-weight: bold;  /* Bold label text */
+  }
+  
+  .registration-form .form-control {
+    border-radius: 5px;  /* Rounded input fields */
+  }
+  
+  .registration-form .btn {
+    align-self: flex-end;  /* Right-align the submit button */
+  }
+  
